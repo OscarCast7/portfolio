@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarCast7/portfolio.git"
+  },
+  "author": "Oscar Castañeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarCast7/portfolio/issues"
+  },
+  "homepage": "https://github.com/OscarCast7/portfolio#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
