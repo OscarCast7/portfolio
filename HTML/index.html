@@ -6,6 +6,7 @@
         <title>Oscar Castañeda | Portafolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="/HTML/11 Portafolio/node_modules/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="/HTML/11 Portafolio/node_modules/eins-modal/dist/css/eins-modal-plain.min.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -104,7 +105,7 @@
                 <h3>Experience</h3>
                 <hr />
                 <div>
-                    <a>
+                    <a class="eins-modal-button" data-modal-id="myModal">
                         <img src="assets/img/experience/1.svg" alt="Experiencia1">
                         <h4>Experiencia1</h4>
                     </a>
@@ -140,7 +141,17 @@
         <footer>
             <small>Developed and desined by Oscar Castañeda. &copy;2023. All rights reserved.</small>
         </footer>
+        <div id="myModal" class="eins-modal">
+            <div class="eins-modal-content">
+              <div class="eins-modal-close"></div>
+          
+              Mi Primer Trabajo
+              
+              <button class="eins-modal-close-button">OK</button>
+            </div>
+          </div>
         <script src="assets/js/main.js"></script>
         <script src="assets/js/fixed.js"></script>
+        <script src="/HTML/11 Portafolio/node_modules/eins-modal/dist/js/eins-modal-plain.min.js"></script>
     </body>
 </html>
